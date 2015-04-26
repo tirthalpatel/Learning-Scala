@@ -14,24 +14,28 @@ Software Requirements
 Setup instructions for this "ScalaQuickStart" project
 ------------------------------------------------------
 (1) Download / Clone this project to your local machine
-(2) If you have installed Scala version other than 2.11.6, then configure it in [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/build.sbt) file
-(3) If you have installed Sbt version other than 0.13.7, then configure it in [/project/build.properties] (https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/project/build.properties) file
-	- Ensure correct [sbteclipse] (https://github.com/typesafehub/sbteclipse/) version is configured in [/project/plugins.sbt] (https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/project/plugins.sbt) file
-	- Ensure correct [scalatest] (http://www.scalatest.org/download) and [junit-interface] (https://github.com/sbt/junit-interface) version is configured in libraryDependencies of [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/build.sbt) file
+
+(2) If you have installed Scala version other than 2.11.6, then configure it in [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+
+(3) If you have installed Sbt version other than 0.13.7, then configure it in [/project/build.properties] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/build.properties) file
+	- Ensure correct [sbteclipse] (https://github.com/typesafehub/sbteclipse/) version is configured in [/project/plugins.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/plugins.sbt) file
+	- Ensure correct [scalatest] (http://www.scalatest.org/download) and [junit-interface] (https://github.com/sbt/junit-interface) version is configured in libraryDependencies of [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+
 (4) Go to root directory of "ScalaQuickStart" project on command prompt and type below commands
 	- sbt eclipse (this command will create default project scaffolding)
 	- sbt (this will load sbt for dependency libraries)
 	- eclipse (run eclipse task)
+
 (5) Import the project in to Eclipse IDE (having Scala plugin installed)
 
 
 A Scala Syntax for Java Programmers
 ------------------------------------
 
-* Hello World + Interacting with Java in Scala code - [Java](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/HelloWorld.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/HelloWorld.scala)
-* ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Abc.scala)
-* How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Customer.scala)
-* Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/ScalaQuickStart/blob/master/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.scala)
+* Hello World + Interacting with Java in Scala code - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/HelloWorld.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/HelloWorld.scala)
+* ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Abc.scala)
+* How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Customer.scala)
+* Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.scala)
 
 
 References:
