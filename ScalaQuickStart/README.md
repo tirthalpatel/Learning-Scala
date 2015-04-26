@@ -2,7 +2,7 @@ Scala learning made easy
 =========================
 Syntax comparison between Java and Scala + Sample code snippet for getting started with Scala.
 
-This can be useful to java developers fir getting started with Scala syntax.
+This can be useful to java developers for getting started with Scala syntax.
 
 Software Requirements
 ---------------------
@@ -38,6 +38,8 @@ A Scala Syntax for Java Programmers
 * ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Abc.scala)
 * How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Customer.scala)
 * Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.scala)
+
+MY LEARNING IN PROGRESS... SO I SHALL BE ADDING MORE CODE IN FEW WEEKS...
 
 
 References:
