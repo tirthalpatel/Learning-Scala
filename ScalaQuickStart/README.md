@@ -13,20 +13,20 @@ Software Requirements
 
 Setup instructions for this "ScalaQuickStart" project
 ------------------------------------------------------
-(1) Download / Clone this project to your local machine
+	(1) Download / Clone this project to your local machine
 
-(2) If you have installed Scala version other than 2.11.6, then configure it in [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+	(2) If you have installed Scala version other than 2.11.6, then configure it in [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
 
-(3) If you have installed Sbt version other than 0.13.7, then configure it in [/project/build.properties] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/build.properties) file
-	- Ensure correct [sbteclipse] (https://github.com/typesafehub/sbteclipse/) version is configured in [/project/plugins.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/plugins.sbt) file
-	- Ensure correct [scalatest] (http://www.scalatest.org/download) and [junit-interface] (https://github.com/sbt/junit-interface) version is configured in libraryDependencies of [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+	(3) If you have installed Sbt version other than 0.13.7, then configure it in [/project/build.properties] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/build.properties) file
+		- Ensure correct [sbteclipse] (https://github.com/typesafehub/sbteclipse/) version is configured in [/project/plugins.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/plugins.sbt) file
+		- Ensure correct [scalatest] (http://www.scalatest.org/download) and [junit-interface] (https://github.com/sbt/junit-interface) version is configured in libraryDependencies of [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
 
-(4) Go to root directory of "ScalaQuickStart" project on command prompt and type below commands
-	- sbt eclipse (this command will create default project scaffolding)
-	- sbt (this will load sbt for dependency libraries)
-	- eclipse (run eclipse task)
+	(4) Go to root directory of "ScalaQuickStart" project on command prompt and type below commands
+		- sbt eclipse (this command will create default project scaffolding)
+		- sbt (this will load sbt for dependency libraries)
+		- eclipse (run eclipse task)
 
-(5) Import the project in to Eclipse IDE (having Scala plugin installed)
+	(5) Import the project in to Eclipse IDE (having Scala plugin installed)
 
 
 A Scala Syntax for Java Programmers
