@@ -1,0 +1,9 @@
+/bin
+/project/project
+/project/target
+/src/main/scala/fileSearcher
+/src/test/scala/fileSearcher
+/target
+.cache
+.classpath
+.project
