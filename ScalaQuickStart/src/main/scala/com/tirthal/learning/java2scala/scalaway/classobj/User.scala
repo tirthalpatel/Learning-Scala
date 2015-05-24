@@ -1,4 +1,4 @@
-package com.tirthal.learning.java2scala.syntax.comparison.scalaway.classobj
+package com.tirthal.learning.java2scala.scalaway.classobj
 
 // Scala way - How to override getter/setter methods of field, if require to add custom logic?
 

@@ -1,4 +1,4 @@
-package com.tirthal.learning.java2scala.syntax.comparison.javaway.classobj;
+package com.tirthal.learning.java2scala.javaway.classobj;
 
 // Java way - Create Class and Objects + Defining fields within Class definition
 
@@ -15,11 +15,11 @@ public class Customer {
 		this.address = address;
 	}
 
-	public String getId() {
+	private String getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	private void setId(String id) {
 		this.id = id;
 	}
 

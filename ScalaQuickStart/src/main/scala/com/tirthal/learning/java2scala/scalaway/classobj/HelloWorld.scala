@@ -1,4 +1,4 @@
-package com.tirthal.learning.java2scala.syntax.comparison.scalaway.classobj
+package com.tirthal.learning.java2scala.scalaway.classobj
 
 // Scala way - say hello world and print date
 

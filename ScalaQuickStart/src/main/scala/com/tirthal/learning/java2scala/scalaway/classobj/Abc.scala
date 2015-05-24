@@ -1,4 +1,4 @@
-package com.tirthal.learning.java2scala.syntax.comparison.scalaway.classobj
+package com.tirthal.learning.java2scala.scalaway.classobj
 
 // Scala way - basic syntax
 
@@ -27,9 +27,7 @@ object Abc {
     // --- Equality check in Scala (== vs. eq)
     val eq1 = new String("A") == new String("A")		// == - value comparison   (result = true)
     val eq2 = new String("A").eq(new String("A"))		// eq() - reference comparison (result = false)
-	assert(eq1!=eq2)
+	  assert(eq1!=eq2)
 
   }
-
-
 }
