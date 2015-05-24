@@ -1,13 +1,13 @@
 Scala learning made easy
 =========================
-Syntax comparison between Java and Scala + Sample code snippet for getting started with Scala.
+Syntax comparison between Java and Scala + Sample code snippet for getting started with Scala features.
 
 This can be useful to java developers for getting started with Scala syntax.
 
 Software Requirements
 ---------------------
 
-* Java 1.6 or later
+* Java 8
 * Scala 2.11.6 (http://scala-lang.org/download/)
 * Sbt 0.13.7 - a build tool for Scala (http://www.scala-sbt.org/download.html)
 * Scala IDE for Eclipse (http://scala-ide.org/)
@@ -28,26 +28,40 @@ Setup instructions for this "ScalaQuickStart" project
 	- sbt (this will load sbt for dependency libraries)
 	- eclipse (run eclipse task)
 
-(5) Import the project in to Eclipse IDE (having Scala plugin installed)
+(5) Import the project in to Eclipse IDE (having Scala plugin installed). Check there is no errors in build path and java compiler compliance needs to be set as 1.8 version. 
 
 
 A Scala Syntax for Java Programmers
 ------------------------------------
+Syntax comparison between Java and Scala
 
-* Hello World + Interacting with Java in Scala code - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/HelloWorld.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/HelloWorld.scala)
-* ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Abc.scala)
-* How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/Customer.scala)
-* Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/syntax/comparison/scalaway/classobj/User.scala)
+* Hello World + Interacting with Java in Scala code - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/HelloWorld.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/HelloWorld.scala)
+* ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Abc.scala)
+* How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Customer.scala)
+* Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/User.scala)
 
-MY LEARNING IN PROGRESS... SO I SHALL BE ADDING MORE CODE IN FEW WEEKS...
+* Control structures
+	- Conditionals (If:then, Ternaries, Switch) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ConditionalsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ConditionalsSyntax.scala)
+	- Loops (while, for) and Breaks - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/LoopsBreaksSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/LoopsBreaksSyntax.scala)
+	- Exceptions - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ExceptionSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ExceptionSyntax.scala)
+
+* Inheritance concepts
+	- Sub-type inheritance - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/SubTypeSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/SubTypeSample.scala)
+	- Traits in Scala (nearly alike Interfaces in Java) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/InterfaceSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/TraitSample.scala)
+	- Methods on Traits in Scala (nearly alike interface default methods in Java 8) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/InterfaceDefaultMethodSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/TraitDefaultMethodSample.scala)	
+	- Abstract class - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/AbstractClassSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/AbstractClassSample.scala)
+
+* Generics (Generic Types & Methods, Bounded Types, Wildcards)  - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/generics/GenericsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/generics/GenericsSyntax.scala)
 
 
-References:
------------
+See Also:
+---------
+
 * http://www.tutorialspoint.com/scala/index.htm
 * http://www.scala-lang.org/
 * http://www.scala-lang.org/old/node/960
 * https://twitter.github.io/scala_school/
+* http://www.pluralsight.com/courses/scala-for-java-developers
 
 
 Disclaimer
