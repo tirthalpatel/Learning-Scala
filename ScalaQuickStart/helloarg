@@ -1,0 +1,16 @@
+#!/bin/sh
+exec scala "$0" "$@"
+!#
+
+// --- Place above code at the top of your script for Unix flavor ---
+ 
+// Although Scala is designed to help programmers build very large-scale systems, it also scales down nicely to scripting. 
+// A script is just a sequence of statements in a file that will be executed sequentially.
+
+// Say hello to the first argument
+println("Hello, "+ args(0) +"!")
+
+// ... more scala statements ...
+
+// You can run the Scala script as a shell script by executing these commands - (1) chmod +x helloarg (2) ./helloarg Tirthal
+
