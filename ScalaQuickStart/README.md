@@ -1,8 +1,9 @@
 Scala learning made easy
-=========================
+========================
 Syntax comparison between Java and Scala + Sample code snippet for getting started with Scala features.
 
-This can be useful to java developers for getting started with Scala syntax.
+This project contains my notes and code snippet when I was learning Scala from various resources (as mentioned further in "See Also" section).
+Mainly this is for my future reference. However, this may be useful to other java developers for getting started with Scala syntax.
 
 Software Requirements
 ---------------------
@@ -33,12 +34,13 @@ Setup instructions for this "ScalaQuickStart" project
 
 A Scala Syntax for Java Programmers
 ------------------------------------
-Syntax comparison between Java and Scala
+From Java to Scala Learning - Syntax comparison between Java and Scala
 
 * Hello World + Interacting with Java in Scala code - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/HelloWorld.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/HelloWorld.scala)
 * ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Abc.scala)
 * How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Customer.scala)
 * Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/User.scala)
+* Scala's case class - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/TemperatureAlarm.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/TemperatureAlarm.scala)
 
 * Control structures
 	- Conditionals (If:then, Ternaries, Switch) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ConditionalsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ConditionalsSyntax.scala)
@@ -54,14 +56,35 @@ Syntax comparison between Java and Scala
 * Generics (Generic Types & Methods, Bounded Types, Wildcards)  - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/generics/GenericsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/generics/GenericsSyntax.scala)
 
 
+Diving into Scala features
+--------------------------
+Sample code snippet for getting started with Scala features (which can be new to java developers)
+
+* Write scala scripts on [Windows](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/helloarg.bat) and [Unix](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/helloarg)
+
+* [Scala's Unified Types / Class Hierarchy](http://docs.scala-lang.org/tutorials/tour/unified-types.html)
+
+* Features for making more concise, expressive and readable code in Scala
+	- Faking function calls using [apply() and update()](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/ApplyUpdateMethodUsage.scala)
+	- Faking language constructs using [curly brace rule](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/HigherOrderFunctions.scala), [higher-order functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/HigherOrderFunctions.scala), [curried functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/CurryingUsage.scala)
+	- [Pattern matching](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/PatternMatching.scala)
+
+* Functional programming in Scala
+	- The Option class	
+	- Functional combinators (map, flatMap, foreach, filter...)
+	- Monads, Chaining Monad calls
+	- For-comprehensions
+
+
 See Also:
 ---------
 
-* http://www.tutorialspoint.com/scala/index.htm
-* http://www.scala-lang.org/
-* http://www.scala-lang.org/old/node/960
-* https://twitter.github.io/scala_school/
-* http://www.pluralsight.com/courses/scala-for-java-developers
+* [Java developer's Scala cheatsheet](http://mbonaci.github.io/scala/)
+* [Programming in Scala, First Edition](http://www.artima.com/pins1ed/)
+* [Scala Documentation](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html)
+* [Twitter Scala School](https://twitter.github.io/scala_school/)
+* [Book: Programming Scala: Tackle Multi-Core Complexity on the Java Virtual Machine](https://pragprog.com/book/vsscala/programming-scala)
+* [Online training: Scala for Java Developers](http://www.pluralsight.com/courses/scala-for-java-developers)
 
 
 Disclaimer
