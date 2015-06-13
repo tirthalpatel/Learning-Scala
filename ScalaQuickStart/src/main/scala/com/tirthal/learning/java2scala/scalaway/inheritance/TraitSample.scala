@@ -2,8 +2,10 @@ package com.tirthal.learning.java2scala.scalaway.inheritance
 
 // Test class instance for scala traits demo --- fundamentally scala trait is alike java interface
 
-object TraitSample {
-  def main(args: Array[String]) {
+// Here App is inbuilt trait in Scala, which can be used to quickly turn objects into executable programs i.e. main() is not required
+object TraitSample extends App {
+  
+  //def main(args: Array[String]) {
     
     val fb = new FooBarImpl();
     fb.foo();
@@ -14,7 +16,8 @@ object TraitSample {
     counter.increment
     counter.increment
     println("After incrementing: " + counter.count)
-  }
+    
+  //}
 }
 
 // In Scala - declare using trait instead of interface

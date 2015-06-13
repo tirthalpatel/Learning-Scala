@@ -20,8 +20,8 @@ class Customer(val name: String, val address: String) {
    */
 
   /* --- In summary - what is important to know for defining fields?
-   * (1) val = creates public getter only
-   * (2) var = creates public getter and setter
+   * (1) val = immutable field - creates public getter only
+   * (2) var = mutable field - creates public getter and setter
    * (3) none = if don't declare using val/var, then does not create getter/setter
    * (4) private = makes any generated methods private
    */
