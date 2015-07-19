@@ -8,6 +8,8 @@ object Abc {
 
   def main(args: Array[String])
   {
+    // In Scala, semicolons are pretty much optional.
+    
     /*
      * Scala is a pure object-oriented language in the sense that everything is an object, including numbers or functions.
      * It differs from Java in that respect, since Java distinguishes primitive types (such as boolean and int) from reference types,
@@ -28,6 +30,21 @@ object Abc {
     val eq1 = new String("A") == new String("A")		// == - value comparison   (result = true)
     val eq2 = new String("A").eq(new String("A"))		// eq() - reference comparison (result = false)
 	  assert(eq1!=eq2)
-
+    
+    // --- Scala's type-inferred local function
+    /*
+     * Define a method with the "def" keyword
+     * 
+     * Scala permits concept of the local function that isn’t present in Java. This is a function that is defined (and is only in scope) within another function. 
+     * This can be a simple way to have a helper function that the developer doesn’t want to expose to the outside world. 
+     * In Java there would be no recourse but to use a private method and have the function visible to other methods within the same class.
+     * 
+     * There is no explicit return type specified. The compiler can figure out that it returns Int by examining the return code of java.lang.String#length, which is int.
+     */   
+    def len(obj : AnyRef) = {
+        obj.toString.length
+    }
+    
+    assert(len("Tirthal") == 7)
   }
 }

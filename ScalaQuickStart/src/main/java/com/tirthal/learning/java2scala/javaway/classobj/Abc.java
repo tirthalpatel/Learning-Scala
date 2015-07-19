@@ -21,7 +21,10 @@ public class Abc {
 		// --- Equality check in Java (equals vs. ==)
 		boolean eq1 = new String("A").equals(new String("A"));	// equals() - value comparison (result = true)
 		boolean eq2 = new String("A") == new String("A");		// == - reference comparison   (result = false)
-		assert eq1!=eq2;
+		assert eq1!=eq2;		
 	}
 
+	private int len(Object o) {
+		return o.toString().length();
+	}
 }
