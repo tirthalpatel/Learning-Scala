@@ -18,11 +18,11 @@ Setup instructions for this "ScalaQuickStart" project
 
 (1) Download / Clone this project to your local machine
 
-(2) If you have installed Scala version other than 2.11.6, then configure it in [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+(2) If you have installed Scala version other than 2.11.6, then configure it in [build.sbt](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
 
-(3) If you have installed Sbt version other than 0.13.7, then configure it in [/project/build.properties] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/build.properties) file
-	- Ensure correct [sbteclipse] (https://github.com/typesafehub/sbteclipse/) version is configured in [/project/plugins.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/plugins.sbt) file
-	- Ensure correct [scalatest] (http://www.scalatest.org/download) and [junit-interface] (https://github.com/sbt/junit-interface) version is configured in libraryDependencies of [build.sbt] (https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+(3) If you have installed Sbt version other than 0.13.7, then configure it in [/project/build.properties](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/build.properties) file
+	- Ensure correct [sbteclipse](https://github.com/typesafehub/sbteclipse/) version is configured in [/project/plugins.sbt](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/plugins.sbt) file
+	- Ensure correct [scalatest](http://www.scalatest.org/download) and [junit-interface](https://github.com/sbt/junit-interface) version is configured in libraryDependencies of [build.sbt](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
 
 (4) Go to root directory of "ScalaQuickStart" project on command prompt and type below commands
 	- sbt eclipse (this command will create default project scaffolding)
@@ -39,6 +39,7 @@ From Java to Scala Learning - Syntax comparison between Java and Scala
 * Hello World + Interacting with Java in Scala code - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/HelloWorld.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/HelloWorld.scala)
 * ABC of syntax differences - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Abc.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Abc.scala)
 * How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Customer.scala)
+* Constructors - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/CashFlow.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/CashFlow.scala) 
 * Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/User.scala)
 * Scala's case class - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/TemperatureAlarm.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/TemperatureAlarm.scala)
 
@@ -53,7 +54,9 @@ From Java to Scala Learning - Syntax comparison between Java and Scala
 	- Methods on Traits in Scala (nearly alike interface default methods in Java 8) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/InterfaceDefaultMethodSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/TraitDefaultMethodSample.scala)	
 	- Abstract class - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/AbstractClassSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/AbstractClassSample.scala)
 
-* Generics (Generic Types & Methods, Bounded Types, Wildcards)  - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/generics/GenericsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/generics/GenericsSyntax.scala)
+* Data Structures and Collections in Scala - [List](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/ListExamples.scala), [Map](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/MapExamples.scala) 
+
+* Generics (Generic Types & Methods, Bounded Types, Wildcards) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/generics/GenericsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/generics/GenericsSyntax.scala)
 
 
 Diving into Scala features
@@ -62,7 +65,7 @@ Sample code snippet for getting started with Scala features (which can be new to
 
 * Write scala scripts on [Windows](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/helloarg.bat) and [Unix](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/helloarg)
 
-* [Scala's Unified Types / Class Hierarchy](http://docs.scala-lang.org/tutorials/tour/unified-types.html)
+* Everything is an object in Scala - [Scala's Unified Types / Class Hierarchy](http://docs.scala-lang.org/tutorials/tour/unified-types.html)
 
 * Features for making more concise, expressive and readable code in Scala
 	- Faking function calls using [apply() and update()](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/ApplyUpdateMethodUsage.scala)
@@ -70,6 +73,7 @@ Sample code snippet for getting started with Scala features (which can be new to
 	- [Pattern matching](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/PatternMatching.scala)
 
 * Functional programming in Scala
+	- [Introduction of functional programming](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/IntroToFunctional.scala)
 	- The Option class	
 	- Functional combinators (map, flatMap, foreach, filter...)
 	- Monads, Chaining Monad calls
