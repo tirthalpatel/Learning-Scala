@@ -29,7 +29,7 @@ object IntroToFunctional extends App {
    val doubler = (x : Int) => { 2 * x }  
    
    println("Double of 2 is: " + doubler(2))
-   println("Double of 2 is: " + doubler(4))
+   println("Double of 4 is: " + doubler(4))
    
    // Define a function literal - a function making function 
    val adder = (n : Int) => { (x : Int) => n + x } // a function literal that takes in a value and returns a new function as a value
