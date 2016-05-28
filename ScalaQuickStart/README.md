@@ -5,6 +5,8 @@ Syntax comparison between Java and Scala + Sample code snippet for getting start
 This project contains my notes and code snippet when I was learning Scala from various resources (as mentioned further in "See Also" section).
 Mainly this is for my future reference. However, this may be useful to other java developers for getting started with Scala syntax.
 
+Related post is [here](http://tirthalpatel.blogspot.com/2016/05/scala-quick-start-for-java-developers.html)
+
 Software Requirements
 ---------------------
 
