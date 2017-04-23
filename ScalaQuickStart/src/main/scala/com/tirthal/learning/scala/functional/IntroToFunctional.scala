@@ -8,7 +8,7 @@ object IntroToFunctional extends App {
    * Crux of Functional Programming:
    * 
    * (1) Functions operate on values, as in procedural languages, but instead of altering their inputs, functions are seen as acting like mathematical functions and return new values.
-   *     In short, functions are seen as “little processing machines” that take in values and output new values.
+   *     In short, functions are seen as little processing machines that take in values and output new values.
    *     
    * (2) First-class functions - the key concept of functional programming that functions should be values that can be put into variables.   
    *     This means that functions can be put into variables, passed to methods, and manipulated in the same ways as any other value.

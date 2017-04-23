@@ -16,7 +16,7 @@ import java.text.DateFormat
 import java.text.DateFormat._ // when importing all the names of a package or class, one uses the underscore character (_) instead of the asterisk (*).
 
 /*
- * Classes are public by default, so there’s no need for a public keyword.
+ * Classes are public by default, so there's no need for a public keyword.
  *  
  * object keyword in Scala = commonly known as a singleton object, that is a class with a single instance.
  * The object declaration above declares both a class called HelloWorld and an instance of that class, also called HelloWorld. This instance is created on demand, the first time it is used.
@@ -27,7 +27,7 @@ object HelloWorld {
    * Why the main method is not declared as static here?
    * This is because static members (methods or fields) do not exist in Scala. Rather than defining static members, the Scala programmer declares these members in singleton objects.
    * 
-   * Also no need to declare the return type of main() — it’s automatically Unit (Scala’s equivalent of void).
+   * Also no need to declare the return type of main() - it's automatically Unit (Scala's equivalent of void).
    * 
    * Unlike Java and Groovy, the type of the variable comes after the variable name, i.e. args: Array[String].
    * Square brackets are used by Scala to indicate a generic type, so the type of args is specified as Array[String] instead of String[].
@@ -36,7 +36,7 @@ object HelloWorld {
   {
     // No need to declare the type of hello as String, because the compiler just works it out.
     val hello = "Hello World!"
-    // The call to println() doesn’t need to be qualified, because scala imports java.lang package by default
+    // The call to println() doesn't need to be qualified, because scala imports java.lang package by default
     println(hello)
 
     // Using Java APIs in Scala
@@ -57,6 +57,6 @@ object HelloWorld {
   
   // Syntax for custom foo method
   // Return types of methods are type-inferred, but it needs the equals sign in the def clause that defines them to tell the compiler to type-infer.
-  // If a method body is just a single statement (or expression), it doesn’t need braces around it.
+  // If a method body is just a single statement (or expression), it doesn't need braces around it.
   def foo() = "Foo"
 }

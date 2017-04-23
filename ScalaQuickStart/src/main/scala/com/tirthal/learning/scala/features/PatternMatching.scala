@@ -64,7 +64,7 @@ object PatternMatching extends App {
    // A pattern guard comes after a pattern and starts with an if & the pattern matches only if the guard evaluates to true
    // Example syntax - 
    //     match only positive integers --- case n: Int if 0 < n => n + " is positive"
-   //     match only strings starting with the letter ‘a’ --- case s: String if s(0) == 'a' => s + " starts with letter 'a'"
+   //     match only strings starting with the letter 'a' --- case s: String if s(0) == 'a' => s + " starts with letter 'a'"
 }
 
 // Case classes are regular classes which export their constructor parameters and which provide a recursive decomposition mechanism via pattern matching

@@ -73,10 +73,10 @@ Sample code snippet for getting started with Scala features (which can be new to
 	- Faking function calls using [apply() and update()](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/ApplyUpdateMethodUsage.scala)
 	- Faking language constructs using [curly brace rule](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/HigherOrderFunctions.scala), [higher-order functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/HigherOrderFunctions.scala), [curried functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/CurryingUsage.scala)
 	- [Pattern matching](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/PatternMatching.scala)
+	- The Option class
 
 * Functional programming in Scala
 	- [Introduction of functional programming](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/IntroToFunctional.scala)
-	- The Option class	
 	- Functional combinators (map, flatMap, foreach, filter...)
 	- Monads, Chaining Monad calls
 	- For-comprehensions

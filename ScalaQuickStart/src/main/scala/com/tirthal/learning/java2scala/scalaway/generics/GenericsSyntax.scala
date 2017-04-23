@@ -8,7 +8,7 @@ object GenericsSyntax {
   def main(args: Array[String]) {
     
     // Generics = Parametric Polymorphism
-    // Generics are mandatory for collection types (you can’t have the equivalent of a Java raw type)
+    // Generics are mandatory for collection types (you can't have the equivalent of a Java raw type)
     val stack = new ListStack[String]     // Square brackets are used by Scala to indicate a generic type. 
     stack.push("A3")
     stack.push("A2")
