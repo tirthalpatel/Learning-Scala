@@ -74,6 +74,7 @@ Sample code snippet for getting started with Scala features (which can be new to
 	- Faking language constructs using [curly brace rule](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/HigherOrderFunctions.scala), [higher-order functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/HigherOrderFunctions.scala), [curried functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/CurryingUsage.scala)
 	- [Pattern matching](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/PatternMatching.scala)
 	- The Option class
+	- Implicit Conversions
 
 * Functional programming in Scala
 	- [Introduction of functional programming](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/IntroToFunctional.scala)
