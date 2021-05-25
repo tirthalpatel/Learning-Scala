@@ -48,7 +48,8 @@ object HelloWorld {
 
     // Calling custom foo method  
     println(foo)
-    
+
+    // Infix Notation = If the method only takes one argument we can use Infix notation we can call a method with no dot or parentheses
     // In Scala syntax - dot(.) is optional to call function, i.e. "aBC".replace("a","A") = "aBC" replace("a","A")
     if("aBC".replace("a","A").equals("aBC" replace("a","A")))
       println("---\"aBC\".replace(\"a\",\"A\")--- is same as ---\"aBC\" replace(\"a\",\"A\")---")   
