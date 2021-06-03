@@ -4,6 +4,8 @@ package com.tirthal.learning.java2scala.javaway.classobj;
 /**
  * This is a roughly equivalent class in Java would look something like a single line of case class in Scala 
  * @see <a href="https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/TemperatureAlarm.scala">TemperatureAlarm - Scala's Case Class</a>
+ *
+ * Like Scala's case class, Java 16 has a new language feature called "record" class. See https://docs.oracle.com/en/java/javase/16/language/records.html
  */
 public class TemperatureAlarm {
 	private final double temp;

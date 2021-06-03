@@ -14,7 +14,7 @@ Software Requirements
 You may run code with available latest version of below at given point of time.
 
 * Java 11
-* Scala 2.11.12 (http://scala-lang.org/download/)
+* Scala 2.13.6 (http://scala-lang.org/download/)
 * Sbt 1.5.2 - a build tool for Scala (http://www.scala-sbt.org/download.html)
 * Intellij IDEA for Scala (https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html) or your choice of IDE
 
@@ -23,7 +23,7 @@ Setup instructions for this "ScalaQuickStart" project
 
 (1) Download / Clone this project to your local machine
 
-(2) If you have installed Scala version other than 2.11.12, then configure it in [build.sbt](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
+(2) If you have installed Scala version other than 2.13.6 as per [JDK supported version compatibility](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html#version-compatibility-table), then configure it in [build.sbt](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/build.sbt) file
 
 (3) If you have installed Sbt version other than 1.5.2, then configure it in [/project/build.properties](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/project/build.properties) file
 	
@@ -43,7 +43,7 @@ From Java to Scala Learning - Syntax comparison between Java and Scala
 * How to create Class and Objects + Defining fields within Class definition? - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/Customer.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/Customer.scala)
 * Constructors - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/CashFlow.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/CashFlow.scala) 
 * Override getter/setter methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/User.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/User.scala)
-* Scala's case class and synthetic methods - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/TemperatureAlarm.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/TemperatureAlarm.scala)
+* Scala's case class and synthetic methods / Record class in Java 16 - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/classobj/TemperatureAlarm.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/classobj/TemperatureAlarm.scala)
 
 * Control structures
 	- Conditionals (If:then, Ternaries, Switch) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ConditionalsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ConditionalsSyntax.scala)
@@ -58,7 +58,8 @@ From Java to Scala Learning - Syntax comparison between Java and Scala
 
 * Data Structures and Collections in Scala 
 	- [List](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/ListExamples.scala)
-	- [Map](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/MapExamples.scala) 
+	- [Map](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/MapExamples.scala)
+	- See [Scala Collections Overview](https://docs.scala-lang.org/overviews/collections/overview.html) and [Performance Characteristics](https://docs.scala-lang.org/overviews/collections/performance-characteristics.html)
 
 * Generics (Generic Types & Methods, Bounded Types, Wildcards) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/generics/GenericsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/generics/GenericsSyntax.scala)
 
