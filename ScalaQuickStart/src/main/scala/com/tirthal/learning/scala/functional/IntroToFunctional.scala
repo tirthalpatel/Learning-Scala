@@ -2,6 +2,7 @@ package com.tirthal.learning.scala.functional
 
 // Introduction of Functional Programming in Scala
 
+// By extending "App" trait, no explicit main method is needed. Instead, the whole class body becomes the “main method”.
 object IntroToFunctional extends App {
 
   /* 
@@ -12,6 +13,15 @@ object IntroToFunctional extends App {
    *     
    * (2) First-class functions - the key concept of functional programming that functions should be values that can be put into variables.   
    *     This means that functions can be put into variables, passed to methods, and manipulated in the same ways as any other value.
+   *
+   * (3) Function composition - chains of functions calling each other.
+   *
+   * (4) Immutable data - prevents inadvertently produced side-effects.
+   *
+   * (5) Pure Functions - do not read values from external world, do not modify values in the external world, produce output using only declared inputs and internal algorithms.
+   *     In short, no side-effects, so same output for same input.
+   *
+   * (6) Ease of parallelism - pure functions acting on immutable data.
    */
 
   /*
