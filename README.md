@@ -1,4 +1,4 @@
-Learning-Scala
+eLearning-Scala
 ==============
 Sample code snippet for Scala learning made easy for Java Developers
 
@@ -13,8 +13,6 @@ Scala project structure
 
 ScalaQuickStart
 ----------------
-Scala learning made easy = Syntax comparison between Java and Scala + Sample code snippet for getting started with Scala.
+Scala learning made easy = [Syntax comparison between Java and Scala + Sample code snippet for getting started with Scala](https://github.com/tirthalpatel/Learning-Scala/tree/master/ScalaQuickStart).
 
-This can be useful to java developers for getting started with Scala syntax.
-
-For more detail, please see [here](https://github.com/tirthalpatel/Learning-Scala/tree/master/ScalaQuickStart)
+This can be useful to java developers for getting started with Scala syntax as well as diving into Scala semantics and features.
