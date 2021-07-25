@@ -48,7 +48,7 @@ From Java to Scala Learning - Syntax comparison between Java and Scala
 * Control structures
 	- Conditionals (If:then, Ternaries, Switch) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ConditionalsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ConditionalsSyntax.scala)
 	- Loops (while, for) and Breaks - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/LoopsBreaksSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/LoopsBreaksSyntax.scala)
-	- Exceptions - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ExceptionSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ExceptionSyntax.scala)
+	- Exception handling (Try-Catch-Finally) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/controlstruct/ExceptionSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/controlstruct/ExceptionSyntax.scala)
 
 * Inheritance concepts
 	- Sub-type inheritance - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/SubTypeSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/SubTypeSample.scala)
@@ -56,21 +56,28 @@ From Java to Scala Learning - Syntax comparison between Java and Scala
 	- Methods on Traits in Scala (nearly alike interface default methods in Java 8) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/InterfaceDefaultMethodSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/TraitDefaultMethodSample.scala)	
 	- Abstract class - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/inheritance/AbstractClassSample.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/inheritance/AbstractClassSample.scala)
 
-* Data Structures and Collections in Scala 
+* Data Structures and Collections in Scala
 	- [List](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/ListExamples.scala)
 	- [Map](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/MapExamples.scala)
-	- See [Scala Collections Overview](https://docs.scala-lang.org/overviews/collections/overview.html) and [Performance Characteristics](https://docs.scala-lang.org/overviews/collections/performance-characteristics.html)
+	- [CollectionConverters for converting collections between Java and Scala]((https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/collection/CollectionConvertersExamples.scala))  
+	- Scala has both immutable and mutable versions of its collections, but immutable version are the default (always available to every Scala source file without import). See [Scala Collections Overview](https://docs.scala-lang.org/overviews/collections/overview.html) and [Performance Characteristics](https://docs.scala-lang.org/overviews/collections/performance-characteristics.html)
 
 * Generics (Generic Types & Methods, Bounded Types, Wildcards) - [Java](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/java/com/tirthal/learning/java2scala/javaway/generics/GenericsSyntax.java) vs. [Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/java2scala/scalaway/generics/GenericsSyntax.scala)
 
-Diving into Scala features
---------------------------
+Diving into Scala semantics, syntax and features
+------------------------------------------------
 
 Sample code snippet for getting started with Scala features (which can be new to java developers)
 
 * Write scala scripts on [Windows](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/helloarg.bat) and [Unix](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/helloarg)
 
 * Everything is an object in Scala - [Scala's Unified Types / Class Hierarchy](http://docs.scala-lang.org/tutorials/tour/unified-types.html)
+
+* Idiomatic Scala
+	- [Understanding val, lazy val, var and def](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/idiomatic/ValLazyValVarDefInAction.scala)
+	- [Methods vs. Functions in Scala](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/idiomatic/MethodsAndFunctionsInAction.scala)
+	- [Partially Applied Functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/idiomatic/PartiallyAppliedFunctionsInAction.scala)
+	- [Partial Functions](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/idiomatic/PartialFunctionInAction.scala)
 
 * Features for making more concise, expressive and readable code in Scala
 	- Faking function calls using [apply() and update()](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/features/ApplyUpdateMethodUsage.scala)
@@ -81,9 +88,13 @@ Sample code snippet for getting started with Scala features (which can be new to
 
 * Functional programming in Scala
 	- [Introduction of functional programming](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/IntroToFunctional.scala)
-	- Functional combinators (map, flatMap, foreach, filter...)
-	- Monads, Chaining Monad calls
+	- Dealing with exceptions and missing values using Functional Error Handling idioms: [Try-Success-Failure](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/ErrorHandlingUsingTrySuccessFailure.scala), [Option-Some-None](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/ErrorHandlingUsingOptionSomeNone.scala), [Either-Right-Left](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/functional/ErrorHandlingUsingEitherRightLeft.scala)
+	- Transforming elements and Pipelining with functional combinators (filter, map, flatMap, foreach...)
+	- Simplify complex computations with Monads and Chaining Monad calls
 	- For-comprehensions
+
+* DIY Examples
+	- [Example 1: How to read Users CSV file and play with the data?](https://github.com/tirthalpatel/Learning-Scala/blob/master/ScalaQuickStart/src/main/scala/com/tirthal/learning/scala/samples/ex1/ExampleRunner.scala)
 
 See Also:
 ---------
